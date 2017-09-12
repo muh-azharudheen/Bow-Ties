@@ -30,6 +30,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
     
+    guard let vc = window?.rootViewController as? ViewController else { return true	}
+    
+    vc.manageObjectContext = persistentContainer.viewContext
+    
     // Save test bow tie
     let bowtie = NSEntityDescription.insertNewObject(forEntityName: "Bowtie", into: self.persistentContainer.viewContext) as! Bowtie
     bowtie.name = "My bow tie"

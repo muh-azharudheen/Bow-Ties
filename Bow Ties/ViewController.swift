@@ -21,6 +21,7 @@
  */
 
 import UIKit
+import CoreData
 
 class ViewController: UIViewController {
 
@@ -32,10 +33,16 @@ class ViewController: UIViewController {
   @IBOutlet weak var timesWornLabel: UILabel!
   @IBOutlet weak var lastWornLabel: UILabel!
   @IBOutlet weak var favoriteLabel: UILabel!
+  
+  var manageObjectContext : NSManagedObjectContext!
 
   // MARK: - View Life Cycle
   override func viewDidLoad() {
     super.viewDidLoad()
+  }
+  
+  fileprivate func insertSampleData(){
+    let request: NSFetchRequest<Bowtie> = Bowtie.fetchRequest()
   }
 
   // MARK: - IBActions
@@ -51,3 +58,4 @@ class ViewController: UIViewController {
 
   }
 }
+
