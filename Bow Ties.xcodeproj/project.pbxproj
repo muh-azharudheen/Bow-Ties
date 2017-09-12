@@ -7,27 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		227F9E8D1F681D20008B4373 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F9E8C1F681D20008B4373 /* AppDelegate.swift */; };
-		227F9E8F1F681D20008B4373 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F9E8E1F681D20008B4373 /* ViewController.swift */; };
-		227F9E921F681D21008B4373 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227F9E901F681D21008B4373 /* Main.storyboard */; };
-		227F9E951F681D21008B4373 /* Bow_Ties.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 227F9E931F681D21008B4373 /* Bow_Ties.xcdatamodeld */; };
-		227F9E971F681D21008B4373 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227F9E961F681D21008B4373 /* Assets.xcassets */; };
-		227F9E9A1F681D21008B4373 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227F9E981F681D21008B4373 /* LaunchScreen.storyboard */; };
+		FEA6248E1D6A54FA0011CF8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6248D1D6A54FA0011CF8F /* AppDelegate.swift */; };
+		FEA624901D6A54FA0011CF8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA6248F1D6A54FA0011CF8F /* ViewController.swift */; };
+		FEA624931D6A54FA0011CF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA624911D6A54FA0011CF8F /* Main.storyboard */; };
+		FEA624961D6A54FA0011CF8F /* Bow_Ties.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEA624941D6A54FA0011CF8F /* Bow_Ties.xcdatamodeld */; };
+		FEA624981D6A54FA0011CF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA624971D6A54FA0011CF8F /* Assets.xcassets */; };
+		FEA6249B1D6A54FA0011CF8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA624991D6A54FA0011CF8F /* LaunchScreen.storyboard */; };
+		FEA624A61D6A54FA0011CF8F /* Bow_TiesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA624A51D6A54FA0011CF8F /* Bow_TiesUITests.swift */; };
+		FEB0E71A1D6A55F100A48955 /* SampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEB0E7191D6A55F100A48955 /* SampleData.plist */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FEA624A21D6A54FA0011CF8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEA624821D6A54FA0011CF8F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEA624891D6A54FA0011CF8F;
+			remoteInfo = "Bow Ties";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		227F9E891F681D20008B4373 /* Bow Ties.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bow Ties.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		227F9E8C1F681D20008B4373 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		227F9E8E1F681D20008B4373 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		227F9E911F681D21008B4373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		227F9E941F681D21008B4373 /* Bow_Ties.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bow_Ties.xcdatamodel; sourceTree = "<group>"; };
-		227F9E961F681D21008B4373 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		227F9E991F681D21008B4373 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		227F9E9B1F681D21008B4373 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA6248A1D6A54FA0011CF8F /* Bow Ties.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bow Ties.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA6248D1D6A54FA0011CF8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEA6248F1D6A54FA0011CF8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FEA624921D6A54FA0011CF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEA624951D6A54FA0011CF8F /* Bow_Ties.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bow_Ties.xcdatamodel; sourceTree = "<group>"; };
+		FEA624971D6A54FA0011CF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEA6249A1D6A54FA0011CF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEA6249C1D6A54FA0011CF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEA624A11D6A54FA0011CF8F /* Bow TiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bow TiesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEA624A51D6A54FA0011CF8F /* Bow_TiesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bow_TiesUITests.swift; sourceTree = "<group>"; };
+		FEA624A71D6A54FA0011CF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB0E7191D6A55F100A48955 /* SampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SampleData.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		227F9E861F681D20008B4373 /* Frameworks */ = {
+		FEA624871D6A54FA0011CF8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA6249E1D6A54FA0011CF8F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,46 +60,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		227F9E801F681D20008B4373 = {
+		FEA624811D6A54FA0011CF8F = {
 			isa = PBXGroup;
 			children = (
-				227F9E8B1F681D20008B4373 /* Bow Ties */,
-				227F9E8A1F681D20008B4373 /* Products */,
+				FEA6248C1D6A54FA0011CF8F /* Bow Ties */,
+				FEA624A41D6A54FA0011CF8F /* Bow TiesUITests */,
+				FEA6248B1D6A54FA0011CF8F /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
-		227F9E8A1F681D20008B4373 /* Products */ = {
+		FEA6248B1D6A54FA0011CF8F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				227F9E891F681D20008B4373 /* Bow Ties.app */,
+				FEA6248A1D6A54FA0011CF8F /* Bow Ties.app */,
+				FEA624A11D6A54FA0011CF8F /* Bow TiesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		227F9E8B1F681D20008B4373 /* Bow Ties */ = {
+		FEA6248C1D6A54FA0011CF8F /* Bow Ties */ = {
 			isa = PBXGroup;
 			children = (
-				227F9E8C1F681D20008B4373 /* AppDelegate.swift */,
-				227F9E8E1F681D20008B4373 /* ViewController.swift */,
-				227F9E901F681D21008B4373 /* Main.storyboard */,
-				227F9E961F681D21008B4373 /* Assets.xcassets */,
-				227F9E981F681D21008B4373 /* LaunchScreen.storyboard */,
-				227F9E9B1F681D21008B4373 /* Info.plist */,
-				227F9E931F681D21008B4373 /* Bow_Ties.xcdatamodeld */,
+				FEA6248D1D6A54FA0011CF8F /* AppDelegate.swift */,
+				FEA6248F1D6A54FA0011CF8F /* ViewController.swift */,
+				FEA624911D6A54FA0011CF8F /* Main.storyboard */,
+				FEA624971D6A54FA0011CF8F /* Assets.xcassets */,
+				FEA624991D6A54FA0011CF8F /* LaunchScreen.storyboard */,
+				FEB0E7191D6A55F100A48955 /* SampleData.plist */,
+				FEA6249C1D6A54FA0011CF8F /* Info.plist */,
+				FEA624941D6A54FA0011CF8F /* Bow_Ties.xcdatamodeld */,
 			);
 			path = "Bow Ties";
+			sourceTree = "<group>";
+		};
+		FEA624A41D6A54FA0011CF8F /* Bow TiesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEA624A51D6A54FA0011CF8F /* Bow_TiesUITests.swift */,
+				FEA624A71D6A54FA0011CF8F /* Info.plist */,
+			);
+			path = "Bow TiesUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		227F9E881F681D20008B4373 /* Bow Ties */ = {
+		FEA624891D6A54FA0011CF8F /* Bow Ties */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 227F9E9E1F681D21008B4373 /* Build configuration list for PBXNativeTarget "Bow Ties" */;
+			buildConfigurationList = FEA624AA1D6A54FA0011CF8F /* Build configuration list for PBXNativeTarget "Bow Ties" */;
 			buildPhases = (
-				227F9E851F681D20008B4373 /* Sources */,
-				227F9E861F681D20008B4373 /* Frameworks */,
-				227F9E871F681D20008B4373 /* Resources */,
+				FEA624861D6A54FA0011CF8F /* Sources */,
+				FEA624871D6A54FA0011CF8F /* Frameworks */,
+				FEA624881D6A54FA0011CF8F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,27 +121,49 @@
 			);
 			name = "Bow Ties";
 			productName = "Bow Ties";
-			productReference = 227F9E891F681D20008B4373 /* Bow Ties.app */;
+			productReference = FEA6248A1D6A54FA0011CF8F /* Bow Ties.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FEA624A01D6A54FA0011CF8F /* Bow TiesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEA624AD1D6A54FA0011CF8F /* Build configuration list for PBXNativeTarget "Bow TiesUITests" */;
+			buildPhases = (
+				FEA6249D1D6A54FA0011CF8F /* Sources */,
+				FEA6249E1D6A54FA0011CF8F /* Frameworks */,
+				FEA6249F1D6A54FA0011CF8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEA624A31D6A54FA0011CF8F /* PBXTargetDependency */,
+			);
+			name = "Bow TiesUITests";
+			productName = "Bow TiesUITests";
+			productReference = FEA624A11D6A54FA0011CF8F /* Bow TiesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		227F9E811F681D20008B4373 /* Project object */ = {
+		FEA624821D6A54FA0011CF8F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
-				ORGANIZATIONNAME = gideon;
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Razeware;
 				TargetAttributes = {
-					227F9E881F681D20008B4373 = {
-						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = K53FCL976W;
+					FEA624891D6A54FA0011CF8F = {
+						CreatedOnToolsVersion = 8.0;
 						ProvisioningStyle = Automatic;
+					};
+					FEA624A01D6A54FA0011CF8F = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEA624891D6A54FA0011CF8F;
 					};
 				};
 			};
-			buildConfigurationList = 227F9E841F681D20008B4373 /* Build configuration list for PBXProject "Bow Ties" */;
+			buildConfigurationList = FEA624851D6A54FA0011CF8F /* Build configuration list for PBXProject "Bow Ties" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -112,55 +171,80 @@
 				en,
 				Base,
 			);
-			mainGroup = 227F9E801F681D20008B4373;
-			productRefGroup = 227F9E8A1F681D20008B4373 /* Products */;
+			mainGroup = FEA624811D6A54FA0011CF8F;
+			productRefGroup = FEA6248B1D6A54FA0011CF8F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				227F9E881F681D20008B4373 /* Bow Ties */,
+				FEA624891D6A54FA0011CF8F /* Bow Ties */,
+				FEA624A01D6A54FA0011CF8F /* Bow TiesUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		227F9E871F681D20008B4373 /* Resources */ = {
+		FEA624881D6A54FA0011CF8F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				227F9E9A1F681D21008B4373 /* LaunchScreen.storyboard in Resources */,
-				227F9E971F681D21008B4373 /* Assets.xcassets in Resources */,
-				227F9E921F681D21008B4373 /* Main.storyboard in Resources */,
+				FEA6249B1D6A54FA0011CF8F /* LaunchScreen.storyboard in Resources */,
+				FEA624981D6A54FA0011CF8F /* Assets.xcassets in Resources */,
+				FEB0E71A1D6A55F100A48955 /* SampleData.plist in Resources */,
+				FEA624931D6A54FA0011CF8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA6249F1D6A54FA0011CF8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		227F9E851F681D20008B4373 /* Sources */ = {
+		FEA624861D6A54FA0011CF8F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				227F9E951F681D21008B4373 /* Bow_Ties.xcdatamodeld in Sources */,
-				227F9E8F1F681D20008B4373 /* ViewController.swift in Sources */,
-				227F9E8D1F681D20008B4373 /* AppDelegate.swift in Sources */,
+				FEA624961D6A54FA0011CF8F /* Bow_Ties.xcdatamodeld in Sources */,
+				FEA624901D6A54FA0011CF8F /* ViewController.swift in Sources */,
+				FEA6248E1D6A54FA0011CF8F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEA6249D1D6A54FA0011CF8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEA624A61D6A54FA0011CF8F /* Bow_TiesUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		FEA624A31D6A54FA0011CF8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEA624891D6A54FA0011CF8F /* Bow Ties */;
+			targetProxy = FEA624A21D6A54FA0011CF8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		227F9E901F681D21008B4373 /* Main.storyboard */ = {
+		FEA624911D6A54FA0011CF8F /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				227F9E911F681D21008B4373 /* Base */,
+				FEA624921D6A54FA0011CF8F /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		227F9E981F681D21008B4373 /* LaunchScreen.storyboard */ = {
+		FEA624991D6A54FA0011CF8F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				227F9E991F681D21008B4373 /* Base */,
+				FEA6249A1D6A54FA0011CF8F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -168,12 +252,11 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		227F9E9C1F681D21008B4373 /* Debug */ = {
+		FEA624A81D6A54FA0011CF8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -187,7 +270,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -209,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -219,12 +302,11 @@
 			};
 			name = Debug;
 		};
-		227F9E9D1F681D21008B4373 /* Release */ = {
+		FEA624A91D6A54FA0011CF8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -238,7 +320,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -254,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -263,66 +345,100 @@
 			};
 			name = Release;
 		};
-		227F9E9F1F681D21008B4373 /* Debug */ = {
+		FEA624AB1D6A54FA0011CF8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K53FCL976W;
 				INFOPLIST_FILE = "Bow Ties/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gideon.Bow-Ties";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.Bow-Ties";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		227F9EA01F681D21008B4373 /* Release */ = {
+		FEA624AC1D6A54FA0011CF8F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = K53FCL976W;
 				INFOPLIST_FILE = "Bow Ties/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gideon.Bow-Ties";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.Bow-Ties";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FEA624AE1D6A54FA0011CF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Bow TiesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.Bow-TiesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Bow Ties";
+			};
+			name = Debug;
+		};
+		FEA624AF1D6A54FA0011CF8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Bow TiesUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.razeware.Bow-TiesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Bow Ties";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		227F9E841F681D20008B4373 /* Build configuration list for PBXProject "Bow Ties" */ = {
+		FEA624851D6A54FA0011CF8F /* Build configuration list for PBXProject "Bow Ties" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				227F9E9C1F681D21008B4373 /* Debug */,
-				227F9E9D1F681D21008B4373 /* Release */,
+				FEA624A81D6A54FA0011CF8F /* Debug */,
+				FEA624A91D6A54FA0011CF8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		227F9E9E1F681D21008B4373 /* Build configuration list for PBXNativeTarget "Bow Ties" */ = {
+		FEA624AA1D6A54FA0011CF8F /* Build configuration list for PBXNativeTarget "Bow Ties" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				227F9E9F1F681D21008B4373 /* Debug */,
-				227F9EA01F681D21008B4373 /* Release */,
+				FEA624AB1D6A54FA0011CF8F /* Debug */,
+				FEA624AC1D6A54FA0011CF8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEA624AD1D6A54FA0011CF8F /* Build configuration list for PBXNativeTarget "Bow TiesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA624AE1D6A54FA0011CF8F /* Debug */,
+				FEA624AF1D6A54FA0011CF8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		227F9E931F681D21008B4373 /* Bow_Ties.xcdatamodeld */ = {
+		FEA624941D6A54FA0011CF8F /* Bow_Ties.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				227F9E941F681D21008B4373 /* Bow_Ties.xcdatamodel */,
+				FEA624951D6A54FA0011CF8F /* Bow_Ties.xcdatamodel */,
 			);
-			currentVersion = 227F9E941F681D21008B4373 /* Bow_Ties.xcdatamodel */;
+			currentVersion = FEA624951D6A54FA0011CF8F /* Bow_Ties.xcdatamodel */;
 			path = Bow_Ties.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 227F9E811F681D20008B4373 /* Project object */;
+	rootObject = FEA624821D6A54FA0011CF8F /* Project object */;
 }

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "227F9E881F681D20008B4373"
+               BlueprintIdentifier = "FEA624891D6A54FA0011CF8F"
                BuildableName = "Bow Ties.app"
                BlueprintName = "Bow Ties"
                ReferencedContainer = "container:Bow Ties.xcodeproj">
@@ -28,11 +28,21 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "FEA624A01D6A54FA0011CF8F"
+               BuildableName = "Bow TiesUITests.xctest"
+               BlueprintName = "Bow TiesUITests"
+               ReferencedContainer = "container:Bow Ties.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "227F9E881F681D20008B4373"
+            BlueprintIdentifier = "FEA624891D6A54FA0011CF8F"
             BuildableName = "Bow Ties.app"
             BlueprintName = "Bow Ties"
             ReferencedContainer = "container:Bow Ties.xcodeproj">
@@ -55,7 +65,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "227F9E881F681D20008B4373"
+            BlueprintIdentifier = "FEA624891D6A54FA0011CF8F"
             BuildableName = "Bow Ties.app"
             BlueprintName = "Bow Ties"
             ReferencedContainer = "container:Bow Ties.xcodeproj">
@@ -74,7 +84,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "227F9E881F681D20008B4373"
+            BlueprintIdentifier = "FEA624891D6A54FA0011CF8F"
             BuildableName = "Bow Ties.app"
             BlueprintName = "Bow Ties"
             ReferencedContainer = "container:Bow Ties.xcodeproj">
